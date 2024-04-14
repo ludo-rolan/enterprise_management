@@ -1,0 +1,6 @@
+{
+    "pylint.interpreter": [
+        "./.venv/bin/pylint"
+    ],
+    "python.defaultInterpreterPath": "./.venv/bin/python"
+}
