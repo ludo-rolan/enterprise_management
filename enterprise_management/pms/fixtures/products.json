@@ -1,0 +1,3494 @@
+[
+  {
+    "model": "pms.Product",
+    "pk": 1,
+    "fields": {
+      "name": "TABOURET NAWAL PM",
+      "dimensions": "45*41*H35",
+      "description": "Tabouret avec hauteur d'assise basse pour salon",
+      "regular_price": 1222.00,
+      "pro_price": 1222.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_1",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 2,
+    "fields": {
+      "name": "TABOURET NAWAL MM",
+      "dimensions": "45*41*H45",
+      "description": "Tabouret avec hauteur d'assise pour salle à manger",
+      "regular_price": 1274.00,
+      "pro_price": 1274.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_2",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 3,
+    "fields": {
+      "name": "CHAISE NAWAL SANS ACCOUDOIRS",
+      "dimensions": "46*51*H45/80",
+      "description": "Chaise pour table de salle à manger sans accoudoir",
+      "regular_price": 1976.00,
+      "pro_price": 1976.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_3",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 4,
+    "fields": {
+      "name": "CHAISE NAWAL AVEC ACCOUDOIR",
+      "dimensions": "56*51*H45/80",
+      "description": "Chaise pour table de salle à manger avec accoudoirs",
+      "regular_price": 2210.00,
+      "pro_price": 2210.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_4",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 5,
+    "fields": {
+      "name": "CHAISE DE BAR NAWAL (bas) H63",
+      "dimensions": "41*48*H63/94",
+      "description": "Tabouret avec dossier pour ilôt d'une hauteur de 90cm environ (sans accoudoir)",
+      "regular_price": 1846.00,
+      "pro_price": 1846.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_5",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 6,
+    "fields": {
+      "name": "CHAISE DE BAR NAWAL (haut) H75",
+      "dimensions": "41*48*H75/107",
+      "description": "Tabouret avec dossier pour comptoir d'une hauteur de 105cm environ ( sans accoudoir )",
+      "regular_price": 2054.00,
+      "pro_price": 2054.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_6",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 7,
+    "fields": {
+      "name": "BANQUETTE NAWAL 2 places",
+      "dimensions": "105*41*H45/80",
+      "description": "Banquette avec dossier et accoudoirs 2 places",
+      "regular_price": 4446.00,
+      "pro_price": 4446.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_7",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 8,
+    "fields": {
+      "name": "BANC NAWAL 2 places",
+      "dimensions": "105*41*H45",
+      "description": "Banc 2 places",
+      "regular_price": 2990.00,
+      "pro_price": 2990.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 1
+    },
+    "name": "product_8",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 9,
+    "fields": {
+      "name": "CHAISE RAMZI SANS ACCOUDOIR",
+      "dimensions": "49*52*H45/80",
+      "description": "Chaise tissée sur l'assise et le dossier , sans accourdoir",
+      "regular_price": 2626.00,
+      "pro_price": 2626.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_9",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 10,
+    "fields": {
+      "name": "CHAISE RAMZI AVEC ACCOUDOIRS",
+      "dimensions": "46*51*H45/80",
+      "description": "Chaise tissée sur l'assise et le dossier , avec accourdoirs",
+      "regular_price": 2808.00,
+      "pro_price": 2808.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_10",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 11,
+    "fields": {
+      "name": "FAUTEUIL RAMZI TISSÉ",
+      "dimensions": "68*66*H35/64",
+      "description": "Fauteuil tissé sur l'assise et le dossier",
+      "regular_price": 3614.00,
+      "pro_price": 3614.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_11",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 12,
+    "fields": {
+      "name": "FAUTEUIL RAMZI AKA",
+      "dimensions": "68*66*H35/64",
+      "description": "Fauteuil avec tissage simple sur l'assise, le dossier et les accoudoirs",
+      "regular_price": 3250.00,
+      "pro_price": 3250.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_12",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 13,
+    "fields": {
+      "name": "CANAPE 2pl. RAMZI TISSÉ",
+      "dimensions": "68*140*H35/64",
+      "description": "Canapé 2 places tissé sur l'assise et le dossier avec accoudoirs",
+      "regular_price": 5980.00,
+      "pro_price": 5980.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_13",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 14,
+    "fields": {
+      "name": "CANAPE 3pl. RAMZI TISSÉ",
+      "dimensions": "68*180*H35/64",
+      "description": "Canapé 3 places tissé sur l'assise et le dossier avec accoudoirs",
+      "regular_price": 8580.00,
+      "pro_price": 8580.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_14",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 15,
+    "fields": {
+      "name": "OTTOMAN RAMZI",
+      "dimensions": "60*60*H27",
+      "description": "Repose-pied ou pouf tissé, peut se glisser sous le fauteuil RAMZI",
+      "regular_price": 2496.00,
+      "pro_price": 2496.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_15",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 16,
+    "fields": {
+      "name": "BANC RAMZI",
+      "dimensions": "90*50*H35",
+      "description": "Banc tissé sans dossier",
+      "regular_price": 2964.00,
+      "pro_price": 2964.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_16",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 17,
+    "fields": {
+      "name": "TABLES GIGOGNES 40",
+      "dimensions": "40*40*H40",
+      "description": "Petite table d'appoint en métal peint, adaptée à la GIGOGNE 35",
+      "regular_price": 1950.00,
+      "pro_price": 1950.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_17",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 18,
+    "fields": {
+      "name": "TABLES GIGOGNES 35",
+      "dimensions": "35*35*H35",
+      "description": "Petite table d'appoin en métal peint, adaptée à la GIGOGNE 40",
+      "regular_price": 1742.00,
+      "pro_price": 1742.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_18",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 19,
+    "fields": {
+      "name": "CONSOLE MARBRE",
+      "dimensions": "120*30*H90",
+      "description": "Console avec piètement métal et top en marbre",
+      "regular_price": 4056.00,
+      "pro_price": 4056.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 2
+    },
+    "name": "product_19",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 20,
+    "fields": {
+      "name": "CHAISE KHEMIS",
+      "dimensions": "56*56*H47/83",
+      "description": "Chaise de salle à manger avec accoudoirs (Toile outdoor/Velour/Lin)",
+      "regular_price": null,
+      "pro_price": null,
+      "active": 1,
+      "image": null,
+      "collection_id": 3
+    },
+    "name": "product_20",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 21,
+    "fields": {
+      "name": "FAUTEUIL KHEMIS",
+      "dimensions": "60*66*H40/76",
+      "description": "Fauteuil avec accoudoirs (Toile outdoor/Velour/Lin)",
+      "regular_price": null,
+      "pro_price": null,
+      "active": 1,
+      "image": null,
+      "collection_id": 3
+    },
+    "name": "product_21",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 22,
+    "fields": {
+      "name": "CANAPE 2pl. KHEMIS",
+      "dimensions": "120*68*H40/76",
+      "description": "Canapé 2 places avec accoudoirs (Toile outdoor/Velour/Lin)",
+      "regular_price": null,
+      "pro_price": null,
+      "active": 1,
+      "image": null,
+      "collection_id": 3
+    },
+    "name": "product_22",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 23,
+    "fields": {
+      "name": "OTTOMAN KHEMIS",
+      "dimensions": "60*61*H40",
+      "description": "Pouf pouvant être utilisé en repose-pied (Toile outdoor/Velour/Lin)",
+      "regular_price": null,
+      "pro_price": null,
+      "active": 1,
+      "image": null,
+      "collection_id": 3
+    },
+    "name": "product_23",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 24,
+    "fields": {
+      "name": "FAUTEUIL OTHMAN AKA",
+      "dimensions": "60*60*H35/64",
+      "description": "Fauteuil avec tissage simple sur l'assise, le dossier et les accoudoirs",
+      "regular_price": 1560.00,
+      "pro_price": 1560.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_24",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 25,
+    "fields": {
+      "name": "FAUTEUIL OTHMAN TISSÉ",
+      "dimensions": "60*60*H35/64",
+      "description": "Fauteuil tissé sur l'assise et le dossier",
+      "regular_price": 2080.00,
+      "pro_price": 2080.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_25",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 26,
+    "fields": {
+      "name": "TABOURET BELDI XS",
+      "dimensions": "30*30*H30",
+      "description": "Mini Tabouret avec assise tissée",
+      "regular_price": 470.00,
+      "pro_price": 470.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_26",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 27,
+    "fields": {
+      "name": "TABOURET BELDI S",
+      "dimensions": "35*35*H35",
+      "description": "Tabouret avec assise tissée",
+      "regular_price": 580.00,
+      "pro_price": 580.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_27",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 28,
+    "fields": {
+      "name": "TABOURET BELDI M",
+      "dimensions": "35*35*H45",
+      "description": "Tabouret de salle à manger avec assise tissée",
+      "regular_price": 650.00,
+      "pro_price": 650.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_28",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 29,
+    "fields": {
+      "name": "TABOURET BAR BELDI 60 ( ilôt 90cm )",
+      "dimensions": "35*35*H60",
+      "description": "Tabouret de bar pour ilôt avec assise tissée",
+      "regular_price": 910.00,
+      "pro_price": 910.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_29",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 30,
+    "fields": {
+      "name": "BANC BELDI",
+      "dimensions": "120*35*H35",
+      "description": "Banc avec assise tissée",
+      "regular_price": 1820.00,
+      "pro_price": 1820.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_30",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 31,
+    "fields": {
+      "name": "POUF BELDI CARRÉ",
+      "dimensions": "60*60*H35",
+      "description": "Pouf tisséepouvant être utilisé en repose-pied avec le fauteuil Othman",
+      "regular_price": 1150.00,
+      "pro_price": 1150.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 4
+    },
+    "name": "product_31",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 32,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "25*25*H55",
+      "description": "table d'appoint avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 1480.00,
+      "pro_price": 1480.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_32",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 33,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "35*35*H45",
+      "description": "table d'appoint avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 2030.00,
+      "pro_price": 2030.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_33",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 34,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "45*45*H40",
+      "description": "table d'appoint avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 2390.00,
+      "pro_price": 2390.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_34",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 35,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "60*60*H35",
+      "description": "petite table de salon avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 2964.00,
+      "pro_price": 2964.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_35",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 36,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "80*80*H35",
+      "description": "table de salon avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 5262.00,
+      "pro_price": 5262.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_36",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 37,
+    "fields": {
+      "name": "TABLE EN MARBRE (ronde ou carrée)",
+      "dimensions": "100*100*H35",
+      "description": "table de salon avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 6320.00,
+      "pro_price": 6320.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_37",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 38,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam25*H55",
+      "description": "table d'appoint avec top en marbre ( à choisir dans le catalogue)",
+      "regular_price": 2288.00,
+      "pro_price": 2288.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_38",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 39,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam35*H45",
+      "description": "table d'appoint avec top en zelliges ( à choisir dans le catalogue)",
+      "regular_price": 2652.00,
+      "pro_price": 2652.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_39",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 40,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam45*H40",
+      "description": "table d'appoint avec top en zelliges ( à choisir dans le catalogue)",
+      "regular_price": 3016.00,
+      "pro_price": 3016.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_40",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 41,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam60*H35",
+      "description": "petite table de salon avec top en zelliges ( à choisir dans le catalogue)",
+      "regular_price": 4654.00,
+      "pro_price": 4654.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_41",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 42,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam80*H35",
+      "description": "table de salon avec top en zelliges ( à choisir dans le catalogue)",
+      "regular_price": 5616.00,
+      "pro_price": 5616.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_42",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 43,
+    "fields": {
+      "name": "TABLE EN ZELLIGES (ronde)",
+      "dimensions": "diam100*H35",
+      "description": "table de salon avec top en zelliges ( à choisir dans le catalogue)",
+      "regular_price": 8918.00,
+      "pro_price": 8918.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_43",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 44,
+    "fields": {
+      "name": "Selette/chevet DOUBLE MARBRE",
+      "dimensions": "35*35*H45",
+      "description": "Chevet avec top et étagère basse en marbre ( à choisir dans le catalogue)",
+      "regular_price": 3286.00,
+      "pro_price": 3286.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_44",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 45,
+    "fields": {
+      "name": "Selette/chevet DOUBLE MARBRE",
+      "dimensions": "35*35*H85",
+      "description": "Selette avec top et étagère basse en marbre ( à choisir dans le catalogue)",
+      "regular_price": 3832.00,
+      "pro_price": 3832.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_45",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 46,
+    "fields": {
+      "name": "TABLE EN TABIKA",
+      "dimensions": "diam25*H55",
+      "description": "table d'appoint avec top rond en jonc tressé",
+      "regular_price": 1253.00,
+      "pro_price": 1253.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_46",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 47,
+    "fields": {
+      "name": "TABLE EN TABIKA",
+      "dimensions": "diam35*H45",
+      "description": "table d'appoint avec top rond en jonc tressé",
+      "regular_price": 1326.00,
+      "pro_price": 1326.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_47",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 48,
+    "fields": {
+      "name": "TABLE EN TABIKA",
+      "dimensions": "diam40*H40",
+      "description": "table d'appoint avec top rond en jonc tressé",
+      "regular_price": 1404.00,
+      "pro_price": 1404.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_48",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 49,
+    "fields": {
+      "name": "TABLE EN TABIKA",
+      "dimensions": "diam80*H35",
+      "description": "table de salon avec top rond en jonc tressé",
+      "regular_price": 3016.00,
+      "pro_price": 3016.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_49",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 50,
+    "fields": {
+      "name": "TABLE BISTROT (ronde ou carré)",
+      "dimensions": "70*70*H75",
+      "description": "Table de salle à manger de type bistrot",
+      "regular_price": 4810.00,
+      "pro_price": 4810.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_50",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 51,
+    "fields": {
+      "name": "Applique CHARLOTTE PM",
+      "dimensions": "30*15",
+      "description": "Applique avec structure métallique et tissage en nylon (voir les nuanciers dans le catalogue)",
+      "regular_price": 1092.00,
+      "pro_price": 1092.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_51",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 52,
+    "fields": {
+      "name": "Applique CHARLOTTE MM",
+      "dimensions": "20*40",
+      "description": "Applique avec structure métallique et tissage en nylon (voir les nuanciers dans le catalogue)",
+      "regular_price": 1300.00,
+      "pro_price": 1300.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 5
+    },
+    "name": "product_52",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 53,
+    "fields": {
+      "name": "Table ITO Rectangulaire",
+      "dimensions": "150*75*H75",
+      "description": "Table de salle à manger 4/6 personnes avec top en marbre",
+      "regular_price": 9360.00,
+      "pro_price": 9360.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_53",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 54,
+    "fields": {
+      "name": "Table ITO Rectangulaire",
+      "dimensions": "180*80*H75",
+      "description": "Table de salle à manger 6/8 personnes avec top en marbre",
+      "regular_price": 11960.00,
+      "pro_price": 11960.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_54",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 55,
+    "fields": {
+      "name": "Table ITO Carrée ou Ronde",
+      "dimensions": "70*70*H75",
+      "description": "Table de salle à manger 2 personnes avec top en marbre",
+      "regular_price": 4810.00,
+      "pro_price": 4810.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_55",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 56,
+    "fields": {
+      "name": "Table ITO Carrée ou Ronde",
+      "dimensions": "90*90*H75",
+      "description": "Table de salle à manger 4 personnes avec top en marbre",
+      "regular_price": 5626.00,
+      "pro_price": 5626.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_56",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 57,
+    "fields": {
+      "name": "Table ITO Carrée ou Ronde",
+      "dimensions": "120*120*H75",
+      "description": "Table de salle à manger 6 personnes avec top en marbre",
+      "regular_price": 11960.00,
+      "pro_price": 11960.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_57",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 58,
+    "fields": {
+      "name": "Table ITO Ovale",
+      "dimensions": "200*80*H75",
+      "description": "Table de salle à manger 6 personnes avec top en marbre",
+      "regular_price": 14560.00,
+      "pro_price": 14560.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 6
+    },
+    "name": "product_58",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 59,
+    "fields": {
+      "name": "LAMPE TARA TISSÉE M",
+      "dimensions": "diam.30*H37",
+      "description": "Lampe à poser avec structure métallique tissée (voir nuancier de couleurs) et abat- jour en laiton . Câble électrique textile noir avec prise et interrupteur.",
+      "regular_price": 2490.00,
+      "pro_price": 2490.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_59",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 60,
+    "fields": {
+      "name": "LAMPE TARA TISSÉE L",
+      "dimensions": "diam.25*H55",
+      "description": "Lampe à poser avec structure métallique tissée (voir nuancier de couleurs) et abat- jour en laiton . Câble électrique textile noir avec prise et interrupteur.",
+      "regular_price": 2280.00,
+      "pro_price": 2280.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_60",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 61,
+    "fields": {
+      "name": "SUSPENSION AKA CAPSULE 60",
+      "dimensions": "diam.60*H35",
+      "description": "Suspension avec structure métallique tissée (voir nuancier de couleurs) et cache- douille en laiton . Câble électrique textile noir L150cm et pavillon en laiton.",
+      "regular_price": 1880.00,
+      "pro_price": 1880.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_61",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 62,
+    "fields": {
+      "name": "SUSPENSION AKA CAPSULE 80",
+      "dimensions": "diam.80*H40",
+      "description": "Suspension avec structure métallique tissée (voir nuancier de couleurs) et cache- douille en laiton . Câble électrique textile noir L150cm et pavillon en laiton.",
+      "regular_price": 2320.00,
+      "pro_price": 2320.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_62",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 63,
+    "fields": {
+      "name": "SUSPENSION AKA 25",
+      "dimensions": "diam.25*H25",
+      "description": "Suspension avec structure métallique tissée (voir nuancier de couleurs) et cache- douille en laiton . Câble électrique textile noir L150cm et pavillon en laiton.",
+      "regular_price": 1160.00,
+      "pro_price": 1160.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_63",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 64,
+    "fields": {
+      "name": "SUSPENSION AKA L",
+      "dimensions": "DIAM30*H60",
+      "description": "Suspension avec structure métallique tissée (voir nuancier de couleurs) et cache- douille en laiton . Câble électrique textile noir L150cm et pavillon en laiton.",
+      "regular_price": 1850.00,
+      "pro_price": 1850.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_64",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 65,
+    "fields": {
+      "name": "SUSPENSION AKA OMBRELLE",
+      "dimensions": "DIAM 95",
+      "description": "Suspension avec structure métallique tissée (voir nuancier de couleurs) et cache- douille en laiton . Câble électrique textile noir L150cm et pavillon en laiton.",
+      "regular_price": 2160.00,
+      "pro_price": 2160.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_65",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 66,
+    "fields": {
+      "name": "PLATEAU \"AKA\" RECTANGULAIRE",
+      "dimensions": "20*30*H6",
+      "description": "Plateau en laiton avec détail tressé (voir nuancier de couleurs)",
+      "regular_price": 1400.00,
+      "pro_price": 1400.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_66",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 67,
+    "fields": {
+      "name": "PLATEAU \"AKA\" ROND",
+      "dimensions": "diam.30*H6",
+      "description": "Plateau en laiton avec détail tressé (voir nuancier de couleurs)",
+      "regular_price": 1340.00,
+      "pro_price": 1340.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 7
+    },
+    "name": "product_67",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 68,
+    "fields": {
+      "name": "APPLIQUE CAPSULE S (laiton)",
+      "dimensions": "diam.5,5 *H20",
+      "description": "applique en laiton avec système électrique intégré (nécessite une sortie de fil murale)",
+      "regular_price": 1352.00,
+      "pro_price": 1352.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_68",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 69,
+    "fields": {
+      "name": "APPLIQUE CAPSULE S (époxi)",
+      "dimensions": "diam.5,5 *H20",
+      "description": "applique en métal + peinture époxi, avec système électrique intégré (nécessite une sortie de fil murale)",
+      "regular_price": 1092.00,
+      "pro_price": 1092.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_69",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 70,
+    "fields": {
+      "name": "APPLIQUE CAPSULE M (laiton)",
+      "dimensions": "diam.8 *H27",
+      "description": "applique en laiton avec système électrique intégré (nécessite une sortie de fil murale)",
+      "regular_price": 1716.00,
+      "pro_price": 1716.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_70",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 71,
+    "fields": {
+      "name": "APPLIQUE CAPSULE M (époxi)",
+      "dimensions": "diam.8 *H27",
+      "description": "applique en métal + peinture époxi, avec système électrique intégré (nécessite une sortie de fil murale)",
+      "regular_price": 1352.00,
+      "pro_price": 1352.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_71",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 72,
+    "fields": {
+      "name": "SUSPENSION CAPSULE M (laiton)",
+      "dimensions": "diam.8 *H27",
+      "description": "la version suspension de l'applique capsule M en laiton avec câble textile noir L150cm, pavillon laiton",
+      "regular_price": 2002.00,
+      "pro_price": 2002.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_72",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 73,
+    "fields": {
+      "name": "SUSPENSION CAPSULE M (époxi)",
+      "dimensions": "diam.8 *H27",
+      "description": "la version suspension de l'applique capsule M en époxi avec câble textile noir L150cm, pavillon époxi",
+      "regular_price": 1638.00,
+      "pro_price": 1638.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_73",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 74,
+    "fields": {
+      "name": "APPLIQUE TAMBOUR XS",
+      "dimensions": "diam.15*H6",
+      "description": "Applique en laiton et cannage sans électrification( elle est utlisée pour cacher une douille avec lampe existante ou simplement en déco murale )",
+      "regular_price": 494.00,
+      "pro_price": 494.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_74",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 75,
+    "fields": {
+      "name": "APPLIQUE TAMBOUR S",
+      "dimensions": "diam.20*H6",
+      "description": "Applique en laiton et cannage sans électrification( elle est utlisée pour cacher une douille avec lampe existante ou simplement en déco murale )",
+      "regular_price": 572.00,
+      "pro_price": 572.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_1",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 76,
+    "fields": {
+      "name": "APPLIQUE TAMBOUR M",
+      "dimensions": "diam.30*H6",
+      "description": "Applique en laiton et cannage sans électrification( elle est utlisée pour cacher une douille avec lampe existante ou simplement en déco murale )",
+      "regular_price": 936.00,
+      "pro_price": 936.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_76",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 77,
+    "fields": {
+      "name": "APPLIQUE SHAMS",
+      "dimensions": "diam.25",
+      "description": "applique en laiton avec système électrique intégré (nécessite une sortie de fil murale)",
+      "regular_price": 1300.00,
+      "pro_price": 1300.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_77",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 78,
+    "fields": {
+      "name": "LAMPE À POSER SHAMS",
+      "dimensions": "diam.25",
+      "description": "Lampe à poser en laiton avec câble textile noir",
+      "regular_price": 1815.00,
+      "pro_price": 1815.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_78",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 79,
+    "fields": {
+      "name": "Suspension JOUMANA DOUM",
+      "dimensions": "diam.100",
+      "description": "suspension en feuilles de palmier tressées, platine et pavillon en laiton, câble textile noir L150cm",
+      "regular_price": 1820.00,
+      "pro_price": 1820.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_79",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 80,
+    "fields": {
+      "name": "Suspension JOUMANA LAITON 100",
+      "dimensions": "diam 100",
+      "description": "Suspension en laiton , câble textile noir L150cm, pavillon laiton",
+      "regular_price": 4914.00,
+      "pro_price": 4914.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_80",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 81,
+    "fields": {
+      "name": "SUSPENSION TERRA S avec fil",
+      "dimensions": "diam.12*H12",
+      "description": "Suspension en céramique non émaillée avec cache douille en laiton , câble électrique textile noir L 150cm, pavillon en laiton",
+      "regular_price": 1014.00,
+      "pro_price": 1014.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_81",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 82,
+    "fields": {
+      "name": "SUSPENSION TERRA M avec fil",
+      "dimensions": "diam.20*H20",
+      "description": "Suspension en céramique non émaillée avec cache douille en laiton , câble électrique textile noir L 150cm, pavillon en laiton",
+      "regular_price": 1222.00,
+      "pro_price": 1222.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_82",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 83,
+    "fields": {
+      "name": "SUSPENSION TERRA S avec TUBE",
+      "dimensions": "diam.12*H65",
+      "description": "Suspension en céramique non émaillée avec cache douille et tube en laiton H65cm",
+      "regular_price": 1144.00,
+      "pro_price": 1144.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_83",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 84,
+    "fields": {
+      "name": "SUSPENSION TERRA M avec TUBE",
+      "dimensions": "diam.20*H65",
+      "description": "Suspension en céramique non émaillée avec cache douille et tube en laiton H65cm",
+      "regular_price": 1248.00,
+      "pro_price": 1248.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_84",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 85,
+    "fields": {
+      "name": "SUSPENSION BOULE avec fil",
+      "dimensions": "diam.12*H20",
+      "description": "Suspension en laiton avec câble électrique textile noir L150cm et pavillon en laiton",
+      "regular_price": 1326.00,
+      "pro_price": 1326.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_85",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 86,
+    "fields": {
+      "name": "SUSPENSION BOULE avec TUBE",
+      "dimensions": "diam.12*H65",
+      "description": "Suspension en laiton avec tube en laiton H65cm",
+      "regular_price": 1560.00,
+      "pro_price": 1560.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_86",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 87,
+    "fields": {
+      "name": "Lampe BOULE à poser",
+      "dimensions": "diam.12*H20",
+      "description": "Lampe à poser en laiton avec câble textile noir",
+      "regular_price": 1503.00,
+      "pro_price": 1503.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_87",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 88,
+    "fields": {
+      "name": "Suspension CÔNE avec fil",
+      "dimensions": "diam.17*H26",
+      "description": "Suspension en laiton avec câble électrique textile noir L150cm et pavillon en laiton",
+      "regular_price": 1222.00,
+      "pro_price": 1222.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_88",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 89,
+    "fields": {
+      "name": "Suspension CÔNE avec TUBE",
+      "dimensions": "diam.17*H65",
+      "description": "Suspension en laiton avec tube en laiton H65cm",
+      "regular_price": 1456.00,
+      "pro_price": 1456.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_89",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 90,
+    "fields": {
+      "name": "Suspension DÔME",
+      "dimensions": "diam.55cm H11",
+      "description": "Suspension en laiton avec câble électrique textile noir L150cm et pavillon en laiton",
+      "regular_price": 3718.00,
+      "pro_price": 3718.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_90",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 91,
+    "fields": {
+      "name": "Lampe sur pied FATIMA laiton & marbre",
+      "dimensions": "36*12*H150",
+      "description": "Lampe sur pied en laiton avec piètement en marbre vert GUATEMALA",
+      "regular_price": 5408.00,
+      "pro_price": 5408.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_91",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 92,
+    "fields": {
+      "name": "Lampe à poser TARA TERRACOTTA S",
+      "dimensions": null,
+      "description": "Lampe à poser avec pied en céramique non émaillée et abat-jour en laiton câble textile noir avec fiche et interrupteur",
+      "regular_price": 1503.00,
+      "pro_price": 1503.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 8
+    },
+    "name": "product_92",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 93,
+    "fields": {
+      "name": "MIROIR \"LALLA\" rond",
+      "dimensions": "diam.60*H6",
+      "description": "Miroir en laiton avec patte de fixation murale à l'arrière",
+      "regular_price": 3120.00,
+      "pro_price": 3120.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_93",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 94,
+    "fields": {
+      "name": "MIROIR \"LALLA\" rond",
+      "dimensions": "diam.90*H6",
+      "description": "Miroir en laiton avec patte de fixation murale à l'arrière",
+      "regular_price": 5200.00,
+      "pro_price": 5200.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_94",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 95,
+    "fields": {
+      "name": "MIROIR \"LALLA\" ovale",
+      "dimensions": "H1M*",
+      "description": "Miroir en laiton avec patte de fixation murale à l'arrière",
+      "regular_price": 4680.00,
+      "pro_price": 4680.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_95",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 96,
+    "fields": {
+      "name": "MIROIR \"LALLA\" ovale",
+      "dimensions": "H70*25",
+      "description": "Miroir en laiton avec patte de fixation murale à l'arrière",
+      "regular_price": 3640.00,
+      "pro_price": 3640.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_96",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 97,
+    "fields": {
+      "name": "MIROIR \"LALLA\" ovale",
+      "dimensions": "H50*20",
+      "description": "Miroir en laiton avec patte de fixation murale à l'arrière",
+      "regular_price": 2600.00,
+      "pro_price": 2600.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_97",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 98,
+    "fields": {
+      "name": "CENDRIER OMAR",
+      "dimensions": "diam.8*H5",
+      "description": "Cendrier en laiton anti-odeurs",
+      "regular_price": 312.00,
+      "pro_price": 312.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_98",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 99,
+    "fields": {
+      "name": "BRÛLE PARFUM TALLAL",
+      "dimensions": "diam.8*H5",
+      "description": "Brûle parfum en laiton",
+      "regular_price": 312.00,
+      "pro_price": 312.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_99",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 100,
+    "fields": {
+      "name": "Sous-verre ROND x4 avec pochette",
+      "dimensions": "diam.9",
+      "description": "sous-verre en laiton vendu par set de 4 avec pochette en velours",
+      "regular_price": 270.00,
+      "pro_price": 270.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_100",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 101,
+    "fields": {
+      "name": "Sous-verre CARRE x4 avec pochette",
+      "dimensions": "9*9",
+      "description": "sous-verre en laiton vendu par set de 4 avec pochette en velours",
+      "regular_price": 270.00,
+      "pro_price": 270.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_101",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 102,
+    "fields": {
+      "name": "SET 2 BOUGEOIRS TAHA",
+      "dimensions": "4*4",
+      "description": "set de 2 bougeoirs en laiton pour cierge",
+      "regular_price": 240.00,
+      "pro_price": 240.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_102",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 103,
+    "fields": {
+      "name": "vase BOUL",
+      "dimensions": "15*15",
+      "description": "Vase en laiton",
+      "regular_price": 1040.00,
+      "pro_price": 1040.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_103",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 104,
+    "fields": {
+      "name": "vase YAN 20 cm proto",
+      "dimensions": "9*H20",
+      "description": "Vase en laiton",
+      "regular_price": 1300.00,
+      "pro_price": 1300.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_104",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 105,
+    "fields": {
+      "name": "vase SOLI 34*6,5 proto",
+      "dimensions": "6.5*H35",
+      "description": "Vase en laiton",
+      "regular_price": 1560.00,
+      "pro_price": 1560.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_105",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 106,
+    "fields": {
+      "name": "vase BRO 25*10 proto",
+      "dimensions": "DIAM10*H25",
+      "description": "Vase en laiton",
+      "regular_price": 1820.00,
+      "pro_price": 1820.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_106",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 107,
+    "fields": {
+      "name": "BOLS LAMIA aliments secs",
+      "dimensions": "diam.8",
+      "description": "Bol en laiton vernis mat",
+      "regular_price": 182.00,
+      "pro_price": 182.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_107",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 108,
+    "fields": {
+      "name": "BOLS LAMIA aliments secs",
+      "dimensions": "diam.15",
+      "description": "Bol en laiton vernis mat",
+      "regular_price": 312.00,
+      "pro_price": 312.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_108",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 109,
+    "fields": {
+      "name": "BOLS LAMIA aliments secs",
+      "dimensions": "diam.20",
+      "description": "Bol en laiton vernis mat",
+      "regular_price": 572.00,
+      "pro_price": 572.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_109",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 110,
+    "fields": {
+      "name": "BOLS LAMIA aliments secs",
+      "dimensions": "diam.25",
+      "description": "Bol en laiton vernis mat",
+      "regular_price": 780.00,
+      "pro_price": 780.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_110",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 111,
+    "fields": {
+      "name": "BOLS LAMIA intérieur alimentaire argenté",
+      "dimensions": "diam.15",
+      "description": "Bol en laiton avec intérieur recouvert d'argent",
+      "regular_price": 390.00,
+      "pro_price": 390.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_111",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 112,
+    "fields": {
+      "name": "BOLS LAMIA intérieur alimentaire argenté",
+      "dimensions": "diam.20",
+      "description": "Bol en laiton avec intérieur recouvert d'argent",
+      "regular_price": 780.00,
+      "pro_price": 780.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_112",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 113,
+    "fields": {
+      "name": "Dessous de plat ZELLIGE - S",
+      "dimensions": "d15*15*1,5",
+      "description": "Dessous de plat en laiton (découpe écailles de poisson)",
+      "regular_price": 780.00,
+      "pro_price": 780.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_113",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 114,
+    "fields": {
+      "name": "Dessous de plat ZELLIGE - M",
+      "dimensions": "20*20*1,5",
+      "description": "Dessous de plat en laiton (découpe écailles de poisson)",
+      "regular_price": 1300.00,
+      "pro_price": 1300.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_114",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 115,
+    "fields": {
+      "name": "PATERE en laiton",
+      "dimensions": "L10",
+      "description": "patère en laiton avec vis pour fixation murale (fixer à l'aide d'une cheville)",
+      "regular_price": 208.00,
+      "pro_price": 208.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_115",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 116,
+    "fields": {
+      "name": "TORCHES NOMADES - TREPIEDS",
+      "dimensions": null,
+      "description": "trépied en bois d'eucalyptus avec fil de laiton",
+      "regular_price": 572.00,
+      "pro_price": 572.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_116",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 117,
+    "fields": {
+      "name": "TORCHES NOMADES - BOUGIE",
+      "dimensions": "diam.25",
+      "description": "Bol en laiton avec bougie paraffine ( réchargeable )",
+      "regular_price": 832.00,
+      "pro_price": 832.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_117",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 118,
+    "fields": {
+      "name": "TORCHES NOMADES - BOUGIE",
+      "dimensions": "diam.25",
+      "description": "Bol en métal avec peinture époxi (voir nuancier de couleurs) avec bougie paraffine ( réchargeable )",
+      "regular_price": 520.00,
+      "pro_price": 520.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_118",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 119,
+    "fields": {
+      "name": "TORCHES NOMADES - BOUGIE",
+      "dimensions": "diam.25",
+      "description": "recharge de parrafine seule",
+      "regular_price": 364.00,
+      "pro_price": 364.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 9
+    },
+    "name": "product_119",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 120,
+    "fields": {
+      "name": "6 Verres BELDI à expresso B1",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 72.00,
+      "pro_price": 72.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_120",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 121,
+    "fields": {
+      "name": "6 Verres BELDI à expresso B1",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 84.00,
+      "pro_price": 84.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_121",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 122,
+    "fields": {
+      "name": "6 Verres BELDI à expresso B1",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 84.00,
+      "pro_price": 84.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_122",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 123,
+    "fields": {
+      "name": "6 Verres BELDI à thé B3",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 84.00,
+      "pro_price": 84.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_123",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 124,
+    "fields": {
+      "name": "6 Verres BELDI à thé B3",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 96.00,
+      "pro_price": 96.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_124",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 125,
+    "fields": {
+      "name": "6 Verres BELDI à thé B3",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 96.00,
+      "pro_price": 96.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_125",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 126,
+    "fields": {
+      "name": "6 Verres BELDI à eau B4",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 96.00,
+      "pro_price": 96.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_126",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 127,
+    "fields": {
+      "name": "6 Verres BELDI à eau B4",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 116.00,
+      "pro_price": 116.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_127",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 128,
+    "fields": {
+      "name": "6 Verres BELDI à eau B4",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 116.00,
+      "pro_price": 116.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_128",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 129,
+    "fields": {
+      "name": "6 Verres BELDI à jus B6",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 144.00,
+      "pro_price": 144.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_129",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 130,
+    "fields": {
+      "name": "6 Verres BELDI à jus B6",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 160.00,
+      "pro_price": 160.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_130",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 131,
+    "fields": {
+      "name": "6 Verres BELDI à jus B6",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 160.00,
+      "pro_price": 160.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_131",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 132,
+    "fields": {
+      "name": "6 Verres ENVERS E1",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 108.00,
+      "pro_price": 108.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_132",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 133,
+    "fields": {
+      "name": "6 Verres ENVERS E1",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 128.00,
+      "pro_price": 128.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_133",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 134,
+    "fields": {
+      "name": "6 Verres ENVERS E1",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 128.00,
+      "pro_price": 128.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_134",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 135,
+    "fields": {
+      "name": "6 Verres ENVERS E3",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 160.00,
+      "pro_price": 160.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_135",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 136,
+    "fields": {
+      "name": "6 Verres ENVERS E3",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 188.00,
+      "pro_price": 188.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_136",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 137,
+    "fields": {
+      "name": "6 Verres ENVERS E3",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 188.00,
+      "pro_price": 188.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_137",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 138,
+    "fields": {
+      "name": "6 Verres ENVERS E5 (soliflore étroit)",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 144.00,
+      "pro_price": 144.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_138",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 139,
+    "fields": {
+      "name": "6 Verres ENVERS E5 (soliflore étroit)",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 192.00,
+      "pro_price": 192.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_139",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 140,
+    "fields": {
+      "name": "6 Verres ENVERS E5 (soliflore étroit)",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 192.00,
+      "pro_price": 192.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_140",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 141,
+    "fields": {
+      "name": "6 Verres ENVERS E12 (soliflore étroit avec bec)",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 192.00,
+      "pro_price": 192.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_141",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 142,
+    "fields": {
+      "name": "6 Verres ENVERS E12 (soliflore étroit avec bec)",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 232.00,
+      "pro_price": 232.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_142",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 143,
+    "fields": {
+      "name": "6 Verres ENVERS E12 (soliflore étroit avec bec)",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 232.00,
+      "pro_price": 232.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_143",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 144,
+    "fields": {
+      "name": "6 Verres KADOUSS K2",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 163.00,
+      "pro_price": 163.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_144",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 145,
+    "fields": {
+      "name": "6 Verres KADOUSS K2",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 172.00,
+      "pro_price": 172.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_145",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 146,
+    "fields": {
+      "name": "6 Verres KADOUSS K2",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 172.00,
+      "pro_price": 172.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_146",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 147,
+    "fields": {
+      "name": "6 Verres KADOUSS K22 L",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 172.00,
+      "pro_price": 172.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_147",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 148,
+    "fields": {
+      "name": "6 Verres KADOUSS K22 L",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 192.00,
+      "pro_price": 192.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_148",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 149,
+    "fields": {
+      "name": "6 Verres KADOUSS K22 L",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 192.00,
+      "pro_price": 192.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_149",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 150,
+    "fields": {
+      "name": "CARAFE B35 sans anse",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 76.00,
+      "pro_price": 76.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_150",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 151,
+    "fields": {
+      "name": "CARAFE B35 sans anse",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 88.00,
+      "pro_price": 88.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_151",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 152,
+    "fields": {
+      "name": "CARAFE B35 sans anse",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 88.00,
+      "pro_price": 88.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_152",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 153,
+    "fields": {
+      "name": "CARAFE B36 avec anse",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 88.00,
+      "pro_price": 88.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_153",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 154,
+    "fields": {
+      "name": "CARAFE B36 avec anse",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 100.00,
+      "pro_price": 100.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_154",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 155,
+    "fields": {
+      "name": "CARAFE B36 avec anse",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 100.00,
+      "pro_price": 100.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_155",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 156,
+    "fields": {
+      "name": "CARAFE E35",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 92.00,
+      "pro_price": 92.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_156",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 157,
+    "fields": {
+      "name": "CARAFE E35",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 104.00,
+      "pro_price": 104.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_157",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 158,
+    "fields": {
+      "name": "CARAFE E35",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 104.00,
+      "pro_price": 104.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_158",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 159,
+    "fields": {
+      "name": "CARAFE E36",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 118.00,
+      "pro_price": 118.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_159",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 160,
+    "fields": {
+      "name": "CARAFE E36",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 136.00,
+      "pro_price": 136.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_160",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 161,
+    "fields": {
+      "name": "CARAFE E36",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 136.00,
+      "pro_price": 136.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_161",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 162,
+    "fields": {
+      "name": "CARAFE LULU S",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 80.00,
+      "pro_price": 80.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_162",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 163,
+    "fields": {
+      "name": "CARAFE LULU S",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 100.00,
+      "pro_price": 100.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_163",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 164,
+    "fields": {
+      "name": "CARAFE LULU S",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 100.00,
+      "pro_price": 100.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_164",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 165,
+    "fields": {
+      "name": "CARAFE LULU S",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 140.00,
+      "pro_price": 140.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_165",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 166,
+    "fields": {
+      "name": "CARAFE LULU M",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 164.00,
+      "pro_price": 164.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_166",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 167,
+    "fields": {
+      "name": "CARAFE LULU M",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 164.00,
+      "pro_price": 164.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_167",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 168,
+    "fields": {
+      "name": "CARAFE LULU M",
+      "dimensions": null,
+      "description": "NATUREL",
+      "regular_price": 180.00,
+      "pro_price": 180.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_168",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 169,
+    "fields": {
+      "name": "CARAFE LULU L",
+      "dimensions": null,
+      "description": "VERT",
+      "regular_price": 208.00,
+      "pro_price": 208.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_169",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 170,
+    "fields": {
+      "name": "CARAFE LULU L",
+      "dimensions": null,
+      "description": "AMBRE",
+      "regular_price": 208.00,
+      "pro_price": 208.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 10
+    },
+    "name": "product_170",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 171,
+    "fields": {
+      "name": "Sets de table VINTAGE",
+      "dimensions": "43*33",
+      "description": "set de table réalisé à partir de courvetures anciennes ( pièces uniques )",
+      "regular_price": 312.00,
+      "pro_price": 312.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_171",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 172,
+    "fields": {
+      "name": "Sous-verre VINTAGE",
+      "dimensions": "S",
+      "description": "Lot de 4 sous-verres réalisés à partir de couvertures anciennes ( pièces uniques)",
+      "regular_price": 78.00,
+      "pro_price": 78.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_172",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 173,
+    "fields": {
+      "name": "Coussins AGAVE M",
+      "dimensions": "50*50",
+      "description": "Housse de coussin en fibre de soie végétale ( agave ) avec teinture naturelle",
+      "regular_price": 400.00,
+      "pro_price": 400.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_173",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 174,
+    "fields": {
+      "name": "Coussins AGAVE L",
+      "dimensions": "100*50",
+      "description": "Housse de coussin en fibre de soie végétale ( agave ) avec teinture naturelle",
+      "regular_price": 1120.00,
+      "pro_price": 1120.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_174",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 175,
+    "fields": {
+      "name": "Coussins LAINE KILLIM CHEVRONS",
+      "dimensions": "50*50",
+      "description": "Housse de coussin 100% laine (issu de la laine du mouton noir pour les motifs)",
+      "regular_price": 640.00,
+      "pro_price": 640.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_175",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 176,
+    "fields": {
+      "name": "Coussins LAINE KILLIM LIGNES",
+      "dimensions": "50*50",
+      "description": "Housse de coussin 100% laine (issu de la laine du mouton noir pour les motifs)",
+      "regular_price": 640.00,
+      "pro_price": 640.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 11
+    },
+    "name": "product_176",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 177,
+    "fields": {
+      "name": "TAPIS Beniourain",
+      "dimensions": "m2",
+      "description": "Tapis en laine nouée",
+      "regular_price": 1350.00,
+      "pro_price": 1350.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 12
+    },
+    "name": "product_177",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 178,
+    "fields": {
+      "name": "Kilim Boucharouite",
+      "dimensions": "m2",
+      "description": "Tapis tissé à partir de tissu recyclé",
+      "regular_price": 750.00,
+      "pro_price": 750.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 12
+    },
+    "name": "product_178",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 179,
+    "fields": {
+      "name": "Tapis en laine SAVOIR AU VILLAGE",
+      "dimensions": "m2",
+      "description": "Tapis haute laine nouée , coopérative de femmes",
+      "regular_price": 3000.00,
+      "pro_price": 3000.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 12
+    },
+    "name": "product_179",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 180,
+    "fields": {
+      "name": "POT XS \"végétal shop\"",
+      "dimensions": "diam.9*H8",
+      "description": "argile rouge",
+      "regular_price": 52.00,
+      "pro_price": 52.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_180",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 181,
+    "fields": {
+      "name": "POT S \"végétal shop\"",
+      "dimensions": "diam.17*H10",
+      "description": "argile rouge",
+      "regular_price": 104.00,
+      "pro_price": 104.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_181",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 182,
+    "fields": {
+      "name": "POT M \"végétal shop\"",
+      "dimensions": "diam.26*H18",
+      "description": "argile rouge",
+      "regular_price": 208.00,
+      "pro_price": 208.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_182",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 183,
+    "fields": {
+      "name": "POT L",
+      "dimensions": "diam.20*H50",
+      "description": "argile rouge",
+      "regular_price": 240.00,
+      "pro_price": 240.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_183",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 184,
+    "fields": {
+      "name": "POT XL",
+      "dimensions": "diam.24*H55",
+      "description": "argile rouge",
+      "regular_price": 280.00,
+      "pro_price": 280.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_184",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 185,
+    "fields": {
+      "name": "POT XXL",
+      "dimensions": "diam.27*H70",
+      "description": "argile rouge",
+      "regular_price": 360.00,
+      "pro_price": 360.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_185",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 186,
+    "fields": {
+      "name": "Sous pot XS",
+      "dimensions": "diam.9*H3",
+      "description": "argile rouge",
+      "regular_price": 52.00,
+      "pro_price": 52.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_186",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 187,
+    "fields": {
+      "name": "Sous pot S",
+      "dimensions": "diam.17*H3",
+      "description": "argile rouge",
+      "regular_price": 104.00,
+      "pro_price": 104.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_187",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 188,
+    "fields": {
+      "name": "Sous pot M",
+      "dimensions": "diam.26*H3",
+      "description": "argile rouge",
+      "regular_price": 208.00,
+      "pro_price": 208.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_188",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 189,
+    "fields": {
+      "name": "Sous pot L",
+      "dimensions": "diam.25*H2",
+      "description": "argile rouge",
+      "regular_price": 60.00,
+      "pro_price": 60.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_189",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 190,
+    "fields": {
+      "name": "Sous pot XXL",
+      "dimensions": "diam.32*H2",
+      "description": "argile rouge",
+      "regular_price": 60.00,
+      "pro_price": 60.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 13
+    },
+    "name": "product_190",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 191,
+    "fields": {
+      "name": "PLANCHE A TAPAS (hêtre, autres bois disponibles sur devis)",
+      "dimensions": "19*29",
+      "description": "Planche à découper ou de présentation en hêtre massif",
+      "regular_price": 2210.00,
+      "pro_price": 2210.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 14
+    },
+    "name": "product_191",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 192,
+    "fields": {
+      "name": "PLANCHE A TAPAS (hêtre, autres bois disponibles sur devis)",
+      "dimensions": "14*40",
+      "description": "Planche à découper ou de présentation en hêtre massif",
+      "regular_price": 2210.00,
+      "pro_price": 2210.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 14
+    },
+    "name": "product_192",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 193,
+    "fields": {
+      "name": "PLANCHE A TAPAS (hêtre, autres bois disponibles sur devis)",
+      "dimensions": "16*60",
+      "description": "Planche à découper ou de présentation en hêtre massif",
+      "regular_price": 2210.00,
+      "pro_price": 2210.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 14
+    },
+    "name": "product_193",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  },
+  {
+    "model": "pms.Product",
+    "pk": 194,
+    "fields": {
+      "name": "PLANCHE A TAPAS (hêtre, autres bois disponibles sur devis)",
+      "dimensions": "18*80",
+      "description": "Planche à découper ou de présentation en hêtre massif",
+      "regular_price": 2210.00,
+      "pro_price": 2210.00,
+      "active": 1,
+      "image": null,
+      "collection_id": 14
+    },
+    "name": "product_194",
+    "scopes": [],
+    "apiResources": [],
+    "proxies": []
+  }
+]

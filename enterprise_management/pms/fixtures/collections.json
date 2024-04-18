@@ -1,0 +1,114 @@
+[
+  {
+    "model": "pms.Collection",
+    "pk": 1,
+    "fields": {
+      "name": "COLLECTION NAWAL",
+      "description": "Structure tubullaire métallique recouverte de peinture époxi. Tressage en nylon. MOBILIER INDOOR/OUTDOOR"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 2,
+    "fields": {
+      "name": "COLLECTION RAMZI",
+      "description": "Structure métallique (section carrée) recouverte de peinture époxi. Tressage en nylon ( pour les assises ). MOBILIER INDOOR/OUTDOOR"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 3,
+    "fields": {
+      "name": "COLLECTION KHEMIS",
+      "description": "Structure métallique (section ronde) recouverte de peinture époxi. Coussin d'assise déhoussable en mousse + ouatine , coussin de dossier déhoussable en flocon de ouate."
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 4,
+    "fields": {
+      "name": "COLLECTION BELDI",
+      "description": "Bois beldi type peuplier avec tressage en nylon. MOBILIER INDOOR/OUTDOOR"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 5,
+    "fields": {
+      "name": "COLLECTION MARIKA",
+      "description": "Piètement en fer plat recouvert de peinture époxi et plateau en marbre, zellige ou fibre naturelle . MOBILIER INDOOR/OUTDOOR"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 6,
+    "fields": {
+      "name": "COLLECTION ITO",
+      "description": "Piètement en fer rectangulaire recouvert de peinture époxi et plateau en marbre. MOBILIER INDOOR/OUTDOOR"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 7,
+    "fields": {
+      "name": "COLLECTION AKA",
+      "description": null
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 8,
+    "fields": {
+      "name": "LUMINAIRES",
+      "description": "Nos luminaires sont entièrement réalisés à la main et sont issus de techniques et savoir faire artisanaux. (pas de certification aux normes UE)"
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 9,
+    "fields": {
+      "name": "LAITON",
+      "description": "Tous nos modèles en laiton sont réalisés à la main par notre maître artisan Abdelmajid . Ils ont une couche de finition vernis mat pour faciliter l'entretien. Si vous souhaitez conserver sa patine naturelle dans le temps , précisez sans vernis."
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 10,
+    "fields": {
+      "name": "VERRERIE",
+      "description": "Toute la gamme VERRERIE est réalisée à partir de verres recyclés et soufflée à la bouche."
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 11,
+    "fields": {
+      "name": "TEXTILE",
+      "description": "Notre collection textile est réalisée à la main. Chaque pièce est unique."
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 12,
+    "fields": {
+      "name": "TAPIS",
+      "description": null
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 13,
+    "fields": {
+      "name": "POTERIE",
+      "description": null
+    }
+  },
+  {
+    "model": "pms.Collection",
+    "pk": 14,
+    "fields": {
+      "name": "BOIS",
+      "description": null
+    }
+  }
+]

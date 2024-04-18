@@ -1,10 +1,11 @@
 from django.contrib.auth.models import Group, User
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework import permissions, viewsets
+from rest_framework import permissions, viewsets, status
+from rest_framework.decorators import api_view
 
-from pms.serializers import BillingSerializer, CartSerializer, CustomerSerializer, GroupSerializer, OrderSerializer, ProductionSerializer, ShippingSerializer, UserSerializer
-from pms.models import Billing, Cart, Customer, Order, Production, Shipping
+from pms.serializers import BillingSerializer, CartSerializer, CollectionSerializer, CustomerSerializer, GroupSerializer, OrderSerializer, ProductSerializer, ProductionSerializer, ShippingSerializer, UserSerializer
+from pms.models import Billing, Cart, Collection, Customer, Order, Product, Production, Shipping
 
 from rest_framework.parsers import JSONParser
 
@@ -27,326 +28,334 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
-@csrf_exempt
-def customer_list(request):
+class CustomerViewSet(viewsets.ModelViewSet):
     """
-    List all customers, or create a new customer.
+    API endpoint that allows customers to be viewed or edited.
     """
-    if request.method == 'GET':
-        customers = Customer.objects.all()
-        serializer = CustomerSerializer(customers, many=True)
-        return JsonResponse(serializer.data, safe=False)
+    queryset = Customer.objects.all().order_by('created_at')
+    serializer_class = CustomerSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = CustomerSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
-
-
-@csrf_exempt
-def customer_detail(request, pk):
+class CollectionViewSet(viewsets.ModelViewSet):
     """
-    Retrieve, update or delete a customer.
+    API endpoint that allows collections to be viewed or edited.
     """
-    try:
-        customer = Customer.objects.get(pk=pk)
-    except Customer.DoesNotExist:
-        return HttpResponse(status=404)
+    queryset = Collection.objects.all().order_by('created_at')
+    serializer_class = CollectionSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
-    if request.method == 'GET':
-        serializer = CustomerSerializer(customer)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = CustomerSerializer(customer, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        customer.delete()
-        return HttpResponse(status=204)
-
-
-@csrf_exempt
-def order_list(request):
+class ProductViewSet(viewsets.ModelViewSet):
     """
-    List all orders, or create a new order.
+    API endpoint that allows products to be viewed or edited.
     """
-    if request.method == 'GET':
-        orders = Order.objects.all()
-        serializer = OrderSerializer(orders, many=True)
-        return JsonResponse(serializer.data, safe=False)
+    queryset = Product.objects.all().order_by('created_at')
+    serializer_class = ProductSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = OrderSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
-
-
-@csrf_exempt
-def order_detail(request, pk):
+class OrderViewSet(viewsets.ModelViewSet):
     """
-    Retrieve, update or delete an order.
+    API endpoint that allows orders to be viewed or edited.
     """
-    try:
-        order = Order.objects.get(pk=pk)
-    except Customer.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = OrderSerializer(order)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = OrderSerializer(order, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        order.delete()
-        return HttpResponse(status=204)
+    queryset = Order.objects.all().order_by('created_at')
+    serializer_class = OrderSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
-
-@csrf_exempt
-def cart_list(request):
+class CartViewSet(viewsets.ModelViewSet):
     """
-    List all carts, or create a new cart.
+    API endpoint that allows carts to be viewed or edited.
     """
-    if request.method == 'GET':
-        carts = Cart.objects.all()
-        serializer = CartSerializer(carts, many=True)
-        return JsonResponse(serializer.data, safe=False)
-
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = CartSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+    queryset = Cart.objects.all().order_by('created_at')
+    serializer_class = CartSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
-@csrf_exempt
-def cart_detail(request, pk):
+class ProductionViewSet(viewsets.ModelViewSet):
     """
-    Retrieve, update or delete a cart.
+    API endpoint that allows productions to be viewed or edited.
     """
-    try:
-        cart = Cart.objects.get(pk=pk)
-    except Cart.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = CartSerializer(cart)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = CartSerializer(cart, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        cart.delete()
-        return HttpResponse(status=204)
+    queryset = Production.objects.all().order_by('created_at')
+    serializer_class = ProductionSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
-@csrf_exempt
-def production_list(request):
+class BillingViewSet(viewsets.ModelViewSet):
     """
-    List all carts, or create a new cart.
+    API endpoint that allows billings to be viewed or edited.
     """
-    if request.method == 'GET':
-        productions = Production.objects.all()
-        serializer = ProductionSerializer(productions, many=True)
-        return JsonResponse(serializer.data, safe=False)
-
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = ProductionSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+    queryset = Billing.objects.all().order_by('created_at')
+    serializer_class = BillingSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
-@csrf_exempt
-def production_detail(request, pk):
+class ShippingViewSet(viewsets.ModelViewSet):
     """
-    Retrieve, update or delete a cart.
+    API endpoint that allows shippings to be viewed or edited.
     """
-    try:
-        production = Production.objects.get(pk=pk)
-    except Cart.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = ProductionSerializer(production)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = ProductionSerializer(production, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        production.delete()
-        return HttpResponse(status=204)
+    queryset = Shipping.objects.all().order_by('created_at')
+    serializer_class = ShippingSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
-@csrf_exempt
-def billing_list(request):
-    """
-    List all bills, or create a new bill.
-    """
-    if request.method == 'GET':
-        billings = Billing.objects.all()
-        serializer = BillingSerializer(billings, many=True)
-        return JsonResponse(serializer.data, safe=False)
+# @api_view(['GET', 'POST'])
+# def customer_list(request):
+#     """
+#     List all customers, or create a new customer.
+#     """
+#     if request.method == 'GET':
+#         customers = Customer.objects.all()
+#         serializer = CustomerSerializer(customers, many=True)
+#         return JsonResponse(serializer.data)
 
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = BillingSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
-
-
-@csrf_exempt
-def billing_detail(request, pk):
-    """
-    Retrieve, update or delete a bill.
-    """
-    try:
-        billing = Billing.objects.get(pk=pk)
-    except Cart.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = BillingSerializer(billing)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = BillingSerializer(billing, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        billing.delete()
-        return HttpResponse(status=204)
+#     elif request.method == 'POST':
+#         serializer = CustomerSerializer(data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-@csrf_exempt
-def billing_list(request):
-    """
-    List all bills, or create a new bill.
-    """
-    if request.method == 'GET':
-        billings = Billing.objects.all()
-        serializer = BillingSerializer(billings, many=True)
-        return JsonResponse(serializer.data, safe=False)
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def customer_detail(request, pk):
+#     """
+#     Retrieve, update or delete a customer.
+#     """
+#     try:
+#         customer = Customer.objects.get(pk=pk)
+#     except Customer.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
 
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = BillingSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+#     if request.method == 'GET':
+#         serializer = CustomerSerializer(customer)
+#         return JsonResponse(serializer.data)
 
+#     elif request.method == 'PUT':
+#         serializer = CustomerSerializer(customer, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@csrf_exempt
-def billing_detail(request, pk):
-    """
-    Retrieve, update or delete a bill.
-    """
-    try:
-        billing = Billing.objects.get(pk=pk)
-    except Cart.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = BillingSerializer(billing)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = BillingSerializer(billing, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        billing.delete()
-        return HttpResponse(status=204)
+#     elif request.method == 'DELETE':
+#         customer.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
 
 
-@csrf_exempt
-def shipping_list(request):
-    """
-    List all shippings, or create a new shipping.
-    """
-    if request.method == 'GET':
-        shippings = Shipping.objects.all()
-        serializer = BillingSerializer(shippings, many=True)
-        return JsonResponse(serializer.data, safe=False)
+# @api_view(['GET', 'POST'])
+# def order_list(request):
+#     """
+#     List all orders, or create a new order.
+#     """
+#     if request.method == 'GET':
+#         orders = Order.objects.all()
+#         serializer = OrderSerializer(orders, many=True)
+#         return JsonResponse(serializer.data)
 
-    elif request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = ShippingSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
-
-
-@csrf_exempt
-def shipping_detail(request, pk):
-    """
-    Retrieve, update or delete a shipping.
-    """
-    try:
-        shipping = Shipping.objects.get(pk=pk)
-    except Shipping.DoesNotExist:
-        return HttpResponse(status=404)
-
-    if request.method == 'GET':
-        serializer = ShippingSerializer(shipping)
-        return JsonResponse(serializer.data)
-
-    elif request.method == 'PUT':
-        data = JSONParser().parse(request)
-        serializer = ShippingSerializer(shipping, data=data)
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
-
-    elif request.method == 'DELETE':
-        shipping.delete()
-        return HttpResponse(status=204)
+#     elif request.method == 'POST':
+#         serializer = OrderSerializer(data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def order_detail(request, pk):
+#     """
+#     Retrieve, update or delete an order.
+#     """
+#     try:
+#         order = Order.objects.get(pk=pk)
+#     except Customer.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+#     if request.method == 'GET':
+#         serializer = OrderSerializer(order)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'PUT':
+#         serializer = OrderSerializer(order, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     elif request.method == 'DELETE':
+#         order.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
+
+
+# @api_view(['GET', 'POST'])
+# def cart_list(request):
+#     """
+#     List all carts, or create a new cart.
+#     """
+#     if request.method == 'GET':
+#         carts = Cart.objects.all()
+#         serializer = CartSerializer(carts, many=True)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'POST':
+#         serializer = CartSerializer(data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def cart_detail(request, pk):
+#     """
+#     Retrieve, update or delete a cart.
+#     """
+#     try:
+#         cart = Cart.objects.get(pk=pk)
+#     except Cart.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+#     if request.method == 'GET':
+#         serializer = CartSerializer(cart)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'PUT':
+#         serializer = CartSerializer(cart, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     elif request.method == 'DELETE':
+#         cart.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
+
+
+# @api_view(['GET', 'POST'])
+# def production_list(request):
+#     """
+#     List all carts, or create a new cart.
+#     """
+#     if request.method == 'GET':
+#         productions = Production.objects.all()
+#         serializer = ProductionSerializer(productions, many=True)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'POST':
+#         serializer = ProductionSerializer(data=request.data, safe=False)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def production_detail(request, pk):
+#     """
+#     Retrieve, update or delete a cart.
+#     """
+#     try:
+#         production = Production.objects.get(pk=pk)
+#     except Cart.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+#     if request.method == 'GET':
+#         serializer = ProductionSerializer(production)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'PUT':
+#         serializer = ProductionSerializer(production, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     elif request.method == 'DELETE':
+#         production.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
+
+
+# @api_view(['GET', 'POST'])
+# def billing_list(request):
+#     """
+#     List all bills, or create a new bill.
+#     """
+#     if request.method == 'GET':
+#         billings = Billing.objects.all()
+#         serializer = BillingSerializer(billings, many=True)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'POST':
+#         serializer = BillingSerializer(data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def billing_detail(request, pk):
+#     """
+#     Retrieve, update or delete a bill.
+#     """
+#     try:
+#         billing = Billing.objects.get(pk=pk)
+#     except Cart.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+#     if request.method == 'GET':
+#         serializer = BillingSerializer(billing)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'PUT':
+#         serializer = BillingSerializer(billing, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     elif request.method == 'DELETE':
+#         billing.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
+
+
+# @api_view(['GET', 'POST'])
+# def shipping_list(request):
+#     """
+#     List all shippings, or create a new shipping.
+#     """
+#     if request.method == 'GET':
+#         shippings = Shipping.objects.all()
+#         serializer = BillingSerializer(shippings, many=True)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'POST':
+#         serializer = ShippingSerializer(data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data, status=status.HTTP_201_CREATED)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def shipping_detail(request, pk):
+#     """
+#     Retrieve, update or delete a shipping.
+#     """
+#     try:
+#         shipping = Shipping.objects.get(pk=pk)
+#     except Shipping.DoesNotExist:
+#         return HttpResponse(status=status.HTTP_404_NOT_FOUND)
+
+#     if request.method == 'GET':
+#         serializer = ShippingSerializer(shipping)
+#         return JsonResponse(serializer.data)
+
+#     elif request.method == 'PUT':
+#         serializer = ShippingSerializer(shipping, data=request.data)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return JsonResponse(serializer.data)
+#         return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     elif request.method == 'DELETE':
+#         shipping.delete()
+#         return HttpResponse(status=status.HTTP_204_NO_CONTENT)

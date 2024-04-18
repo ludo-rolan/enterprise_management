@@ -5,7 +5,7 @@ class CustomerType(models.TextChoices):
     RESELLER = 'reseller'
     INDIVIDUAL = 'individual'
 
-class OrderState(models.TextChoices):
+class OrderStatus(models.TextChoices):
     QUOTATION = 'quotation'
     PURCHASE_ORDER = 'purchase order'
     PROFORMA = 'proforma invoice'
@@ -14,7 +14,7 @@ class PaymentMethod(models.TextChoices):
     CASH = 'cash payment'
     CHECK = 'check payment'
 
-class PaymentState(models.TextChoices):
+class PaymentStatus(models.TextChoices):
     DEPOSIT = 'deposit'
     PAYOFF = 'payoff'
 
@@ -30,4 +30,3 @@ class ShippingStatus(models.TextChoices):
     READY_TO_SHIP = 'ready to ship'
     IN_TRANSIT = 'in transit'
     ORDER_COMPLETED = 'order completed'
-

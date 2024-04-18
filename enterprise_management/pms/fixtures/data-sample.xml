@@ -1,0 +1,10 @@
+<django-objects>
+    <object pk="1" model="myapp.mymodel">
+        <field name="name" type="CharField">Item 1</field>
+        <field name="description" type="CharField">Description for Item 1</field>
+    </object>
+    <object pk="2" model="myapp.mymodel">
+        <field name="name" type="CharField">Item 2</field>
+        <field name="description" type="CharField">Description for Item 2</field>
+    </object>
+</django-objects>

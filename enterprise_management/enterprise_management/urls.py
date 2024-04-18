@@ -23,12 +23,20 @@ from pms import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
+router.register(r'pms/customers', views.CustomerViewSet)
+router.register(r'pms/collections', views.CollectionViewSet)
+router.register(r'pms/products', views.ProductViewSet)
+router.register(r'pms/orders', views.OrderViewSet)
+router.register(r'pms/carts', views.CartViewSet)
+router.register(r'pms/productions', views.ProductionViewSet)
+router.register(r'pms/billings', views.BillingViewSet)
+router.register(r'pms/shippings', views.ShippingViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
-    path('pms/', include('pms.urls')),
+    # path('pms/', include('pms.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('admin/', admin.site.urls),
 ]
