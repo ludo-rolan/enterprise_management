@@ -2,6 +2,16 @@ from django.contrib.auth.models import Group, User
 from rest_framework import serializers
 
 from pms.models import Collection, Customer, Billing, Product, Production, Shipping, Order, Cart
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+
+class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+
+        # Add custom claims
+        token['username'] = user.username
+        return token
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):

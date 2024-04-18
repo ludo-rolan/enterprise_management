@@ -4,11 +4,15 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework import permissions, viewsets, status
 from rest_framework.decorators import api_view
 
-from pms.serializers import BillingSerializer, CartSerializer, CollectionSerializer, CustomerSerializer, GroupSerializer, OrderSerializer, ProductSerializer, ProductionSerializer, ShippingSerializer, UserSerializer
+from pms.serializers import BillingSerializer, CartSerializer, CollectionSerializer, CustomerSerializer, GroupSerializer, MyTokenObtainPairSerializer, OrderSerializer, ProductSerializer, ProductionSerializer, ShippingSerializer, UserSerializer
 from pms.models import Billing, Cart, Collection, Customer, Order, Product, Production, Shipping
 
 from rest_framework.parsers import JSONParser
+from rest_framework_simplejwt.views import TokenObtainPairView
 
+
+class MyTokenObtainPairView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     """
