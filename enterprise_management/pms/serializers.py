@@ -20,6 +20,13 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         fields = ['id', 'url', 'username', 'email', 'groups']
 
 
+# this is to customize the field to obtain a better value
+class SalespersonField(serializers.RelatedField):
+    def to_representation(self, value):
+        customer = User.objects.filter(id=value.id).values('username')[0]
+        return '%s' % (customer['username'])
+
+
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
@@ -42,6 +49,12 @@ class CustomerSerializer(serializers.ModelSerializer):
             'updated_at'
         ]
 
+# this is to customize the field to obtain a better value
+class CustomerField(serializers.RelatedField):
+    def to_representation(self, value):
+        customer = Customer.objects.filter(id=value.id).values('full_name')[0]
+        return '%s' % (customer['full_name'])
+
 
 class CollectionSerializer(serializers.ModelSerializer):
     
@@ -56,8 +69,15 @@ class CollectionSerializer(serializers.ModelSerializer):
         ]
 
 
+# this is to customize the field to obtain a better value
+class CollectionField(serializers.RelatedField):
+    def to_representation(self, value):
+        collection = Collection.objects.filter(id=value.id).values('name')[0]
+        return '%s' % (collection['name'])
+
+
 class ProductSerializer(serializers.ModelSerializer):
-    collection = serializers.PrimaryKeyRelatedField(queryset=Collection.objects.all())
+    CollectionField(queryset=Collection.objects.all(), many=False)
     
     class Meta:
         model = Product
@@ -76,9 +96,16 @@ class ProductSerializer(serializers.ModelSerializer):
         ]
 
 
+# this is to customize the field to obtain a better value
+class ProductField(serializers.RelatedField):
+    def to_representation(self, value):
+        product = Product.objects.filter(id=value.id).values('name')[0]
+        return '%s' % (product['name'])
+
+
 class OrderSerializer(serializers.ModelSerializer):
-    customer = serializers.PrimaryKeyRelatedField(queryset=Customer.objects.all())
-    salesperson = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
+    customer = CustomerField(queryset=Customer.objects.all(), many=False)
+    salesperson = SalespersonField(queryset=User.objects.all(), many=False)
     
     class Meta:
         model = Order
@@ -94,9 +121,17 @@ class OrderSerializer(serializers.ModelSerializer):
         ]
 
 
+# this is to customize the field to obtain a better value
+class OrderField(serializers.RelatedField):
+    def to_representation(self, value):
+        order = Order.objects.filter(id=value.id).values('customer_id')[0]
+        customer = Customer.objects.filter(id=order['customer_id']).values('full_name')[0]
+        return '%s' % (customer['full_name'])
+
+
 class CartSerializer(serializers.ModelSerializer):
-    order = serializers.PrimaryKeyRelatedField(queryset=Order.objects.all())
-    product = serializers.PrimaryKeyRelatedField(queryset=Product.objects.all())
+    order = OrderField(queryset=Order.objects.all(), many=False)
+    product = ProductField(queryset=Order.objects.all(), many=False)
     
     class Meta:
         model = Cart
@@ -111,8 +146,15 @@ class CartSerializer(serializers.ModelSerializer):
         ]
 
 
+# this is to customize the field to obtain a better value
+class CartField(serializers.RelatedField):
+    def to_representation(self, value):
+        cart = Cart.objects.filter(id=value.id).values('code')[0]
+        return '%s' % (cart['code'])
+
+
 class ProductionSerializer(serializers.ModelSerializer):
-    cart = serializers.PrimaryKeyRelatedField(queryset=Cart.objects.all())
+    cart = CartField(queryset=Cart.objects.all(), many=False)
     
     class Meta:
         model = Production
@@ -129,7 +171,7 @@ class ProductionSerializer(serializers.ModelSerializer):
 
 
 class BillingSerializer(serializers.ModelSerializer):
-    order = serializers.PrimaryKeyRelatedField(queryset=Order.objects.all())
+    order = OrderField(queryset=Order.objects.all(), many=False)
     
     class Meta:
         model = Billing
@@ -147,7 +189,7 @@ class BillingSerializer(serializers.ModelSerializer):
 
 
 class ShippingSerializer(serializers.ModelSerializer):
-    order = serializers.PrimaryKeyRelatedField(queryset=Order.objects.all())
+    order = OrderField(queryset=Order.objects.all(), many=False)
     
     class Meta:
         model = Shipping

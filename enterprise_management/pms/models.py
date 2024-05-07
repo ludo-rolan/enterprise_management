@@ -103,6 +103,37 @@ class Product(models.Model):
         return '%s %s' % (self.name, self.collection.name)
 
 
+# class Quotation(models.Model):
+#     id = models.IntegerField(primary_key=True, null=False,unique=True, auto_created=True, editable=False)
+#     code = models.CharField(default=uuid.uuid4, editable=False, max_length=50, null=False)
+#     is_sent = models.BooleanField(default=False)
+#     details = models.TextField()
+#     customer = models.ForeignKey("Customer", related_name='orders', on_delete=models.CASCADE)
+#     salesperson = models.ForeignKey("auth.User", related_name='orders', on_delete=models.CASCADE)
+#     created_at = models.DateTimeField(editable=False, null=True, auto_now_add=True)
+#     updated_at = models.DateTimeField(editable=False, null=True, default=None)
+
+#     class Meta:
+#         # Specify the database table name
+#         db_table = 'orders'
+#         # Define default ordering by the 'order_created_at' field
+#         ordering = ['created_at']
+#         # Define a unique constraint for the 'order_code' field
+#         unique_together = [('code',)]
+#         # Set a human-readable name for the model
+#         verbose_name = 'Order'
+#         # Set the plural form of the model's verbose name
+#         verbose_name_plural = 'Orders'
+#         # Define permissions for the model
+#         permissions = [
+#             ('can_view_order', 'Can view Order'),
+#             ('can_change_order', 'Can change Order'),
+#         ]
+
+#     def __str__(self):
+#         return '%s %s %s' % (self.status, self.code, self.customer.full_name)
+
+
 class Order(models.Model):
     id = models.IntegerField(primary_key=True, null=False,unique=True, auto_created=True, editable=False)
     code = models.CharField(default=uuid.uuid4, editable=False, max_length=50, null=False)
